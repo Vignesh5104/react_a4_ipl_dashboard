@@ -1,0 +1,25 @@
+{
+  "short_name": "IPL Dashboard",
+  "name": "IPL Dashboard",
+  "icons": [
+    {
+      "src": "https://clipground.com/images/ipl-logo-7.jpg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://clipground.com/images/ipl-logo-7.jpg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://clipground.com/images/ipl-logo-7.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,124 @@
+/* Write your CSS here */
+.team-detail-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 562px) {
+  .team-detail-main-container {
+    justify-content: center;
+  }
+}
+
+.match-summary-container {
+  width: 70%;
+}
+@media screen and (min-width: 562px) {
+  .match-summary-container {
+    width: 30%;
+    flex-grow: 1;
+  }
+}
+
+.latest-team-name {
+  padding-left: 0px;
+  font-size: 20px;
+  font-weight: 550;
+  font-family: 'bree serif';
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  .latest-team-name {
+    font-size: 23px;
+  }
+}
+
+.match-date {
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .match-date {
+    font-size: 19px;
+  }
+}
+
+.match-venue {
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .match-venue {
+    font-size: 15px;
+  }
+}
+
+.match-result {
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .match-result {
+    font-size: 15px;
+  }
+}
+
+.team-logo-image-container {
+  width: 30%;
+  text-align: end;
+}
+@media screen and (min-width: 562px) {
+  .team-logo-image-container {
+    width: 30%;
+    flex-grow: 1;
+    text-align: center;
+  }
+}
+
+.team-logo {
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+}
+
+.other-details-container {
+  border-top: 2px solid white;
+  flex-grow: 1;
+}
+@media screen and (min-width: 562px) {
+  .other-details-container {
+    width: 30%;
+    flex-shrink: 0;
+    border: none;
+    text-align: end;
+    flex-grow: 1;
+  }
+}
+
+.match-details-head {
+  font-size: 17px;
+}
+@media screen and (min-width: 768px) {
+  .match-details-head {
+    font-size: 19.5px;
+  }
+}
+
+.match-details-des {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  .match-details-des {
+    font-size: 17px;
+  }
+}

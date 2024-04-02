@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.recent-match-card-container {
+  list-style: none;
+  background-color: #0f172a;
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 290px;
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .recent-match-card-container {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .recent-match-card-container {
+    width: 30%;
+  }
+}
+
+.recent-team-logo {
+  height: 70px;
+}
+.recent-team-name {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+}
+.recent-match-result {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+.recent-match-status {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(255, 251, 0);
+}
